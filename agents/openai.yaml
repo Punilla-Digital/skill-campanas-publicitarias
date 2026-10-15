@@ -1,0 +1,14 @@
+interface:
+  display_name: Medición y Campañas Google y Meta
+  short_description: Guía paso a paso de etiquetas, conversiones y campañas
+  default_prompt: Usa $configurar-medicion-y-campanas para guiarme en esta pantalla
+    y darme los nombres exactos de etiquetas, eventos y campañas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

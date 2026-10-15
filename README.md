@@ -1,36 +1,34 @@
-# Campañas Publicitarias
+# Medición y Campañas Google y Meta
 
-Skill básica de ejemplo creada por Punilla Digital para preparar un plan básico de campaña publicitaria.
+Guía por pantallas para GTM, GA4, conversiones, campañas de Google Ads, Meta Pixel y catálogos. Incluye convenciones de nombres, comprobaciones y referencias por plataforma.
 
-## Alcance
-Objetivo, audiencia, presupuesto, tres anuncios y métricas. Esta versión prepara contenido e instrucciones; no incluye scripts, integraciones ni exportación automática de archivos.
+- Instrucciones: [SKILL.md](SKILL.md).
+- Recursos e iconos: incluidos en `assets/` y `agents/`.
+- Referencias: `references/`.
 
-## Uso
-- Consultar [SKILL.md](SKILL.md) y proporcionar los datos de entrada que indica.
-- En un agente compatible, colocar la carpeta `campanas-publicitarias` con el archivo `SKILL.md` en el directorio de skills que admita ese entorno.
-- En otros asistentes, adjuntar o pegar las instrucciones como contexto. Esto no garantiza instalación ni activación automática.
+## Requisitos
 
-## Personalizar la marca
-Cambiar la sección «Identidad configurable» en SKILL.md o indicar la configuración en cada pedido:
+Acceso a capturas o a la interfaz que se está configurando y consulta de documentación oficial actual. No incluye acceso a cuentas, claves ni automatización de campañas. El módulo de creación de campañas es Google Ads; no presentar Meta Ads como implementación completa.
 
-```text
-Marca: Mi negocio
-Logo: archivo adjunto
-Colores: #7C3AED, #F97316 y #FFFFFF
-Tipografía: sans serif o la fuente de mi marca
-Tema: claro u oscuro
-Tono: profesional y directo
-```
+## Uso e instalación
 
-La paleta incluida es ilustrativa. No se incluye un archivo de logo; utilizar uno propio. La identidad afecta la presentación cuando corresponde, sin cambiar datos o cálculos.
+1. Descargar el repositorio.
+2. Usar la carpeta del repositorio como carpeta de la skill.
+3. En un agente compatible, copiar la carpeta completa con el nombre `configurar-medicion-y-campanas` a su directorio de skills. Conservar scripts, referencias y recursos junto al SKILL.md. Si el entorno ofrece importación, seguir su procedimiento; publicar en GitHub no instala automáticamente la skill en ChatGPT.
+4. Resolver las rutas de recursos desde la carpeta de la skill. En otros asistentes, adjuntar solo SKILL.md no carga automáticamente scripts ni imágenes.
 
-## Ejemplo de pedido
-> Planificá una campaña local para recibir consultas por una tienda de ropa.
+Las menciones a habilidades de PDF o generación de imágenes requieren herramientas equivalentes en el entorno; no se incluyen habilidades de terceros. Los iconos de agents/openai.yaml dependen del soporte del agente.
 
-## Resultado esperado
-Objetivo, audiencia, presupuesto, tres anuncios y métricas.
+## Ejemplo
 
-## Créditos
-[Punilla Digital](https://punilladigital.com.ar/) · [Catálogo de Skills](https://punilladigital.com.ar/skils/)
+> Guiame para medir clics de WhatsApp con GTM y GA4; esta es la captura de mi configuración.
 
-Consultar LICENSE, si está presente, para las condiciones de uso.
+## Identidad y recursos
+
+Conservar los logos y las reglas incluidas. Aplicar los cambios de marca, colores o formato que admita la habilidad y solicite el usuario. No inventar un logo ni presentar archivos como generados antes de crearlos y verificarlos.
+
+## Origen y alcance
+
+Copia de la habilidad personal de Punilla Digital aprobada para este repositorio el 15/10/2026. Se preservan sus instrucciones y recursos funcionales; esta publicación no modifica la habilidad instalada en Complementos.
+
+[Punilla Digital](https://punilladigital.com.ar/) · Consultar [LICENSE](LICENSE).

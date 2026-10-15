@@ -1,34 +1,42 @@
 ---
-name: campanas-publicitarias
-description: "Preparar una versión básica para preparar un plan básico de campaña publicitaria. Usar cuando el usuario pida preparar un plan básico de campaña publicitaria a partir de información suministrada."
+name: configurar-medicion-y-campanas
+description: Guiar paso a paso la configuración de Google Tag Manager, GA4, conversiones y campañas de Google Ads, Meta Pixel y catálogos de Facebook e Instagram. Usar ante capturas de pantallas de configuración, consultas sobre qué nombre o título poner, instalación de etiquetas en WordPress/Drupal/HTML, medición de formularios/WhatsApp/compras y creación o revisión de campañas. Adaptar instrucciones a la interfaz observada y verificar cambios actuales.
 ---
 
-# Campañas Publicitarias
+# Medición y Campañas Google y Meta
 
-Versión básica de ejemplo de Punilla Digital.
+## Forma de trabajar
+Responder en español claro, como compañero que guía al usuario mientras configura. Dar nombres y valores listos para copiar. Avanzar una pantalla o bloque por vez, normalmente con 3–6 pasos, sin adelantar un tutorial completo cuando el usuario está siguiendo capturas. Si pide solo títulos, devolver solo los nombres necesarios con su correspondencia.
 
-## Datos de entrada
-Solicitar producto, objetivo, público, zona, canal, presupuesto y período. Preguntar solo por datos imprescindibles; señalar supuestos y pendientes para el resto.
+Identificar cliente, dominio, plataforma, cuenta/propiedad/contenedor correctos y objetivo comercial. Reutilizar datos explícitos de la sesión; preguntar únicamente por los que afectan el próximo paso. No inventar IDs, presupuestos, selectores, URLs ni valores de conversión. Mantener separación entre clientes.
 
-## Identidad configurable
-- Usar la marca, logo, paleta, tipografías, tema y tono que proporcione el usuario. Sus instrucciones prevalecen sobre este ejemplo.
-- Ejemplo editable: marca Punilla Digital; violeta #7C3AED, naranja #F97316, cian #06B6D4, negro #0B0B10 y blanco #FFFFFF. Son valores de demostración, no una certificación de colores oficiales.
-- Tema claro: fondo blanco y texto oscuro. Tema oscuro: fondo negro, texto blanco, acentos moderados y grilla sutil cuando el formato lo permita.
-- Tipografía: sans serif legible; usar la fuente de marca si se proporciona. Tono: profesional, directo y español rioplatense.
-- Logo: usar exclusivamente el archivo suministrado, conservar proporciones y dejar espacio alrededor. Si falta, marcar «logo pendiente»; no inventarlo.
-- Aplicar estilo a la presentación y a las indicaciones visuales; no modificar cifras, consultas, contenido educativo ni datos para ajustarlos al diseño.
+Leer solo los módulos necesarios:
+- [Nombres](references/nombres.md): siempre que se creen objetos.
+- [Google](references/google.md): GTM, GA4, conversiones, instalación y pruebas.
+- [Campañas](references/campanas.md): planificación y creación de Google Ads.
+- [Meta](references/meta.md): Pixel, eventos y catálogos.
+- [Versiones GTM y flujo Meta](references/versiones-y-flujo-meta.md): al instalar Pixel, conectar catálogo o publicar versiones; conservar títulos y descripciones listos para copiar.
+- [Pantallas y fuentes](references/pantallas.md): navegación, cambios y actualización de la skill.
 
-## Procedimiento
-1. Identificar el resultado esperado y revisar el material proporcionado.
-2. Definir objetivo medible, audiencia y oferta; proponer anuncios y distribución del presupuesto; verificar reglas actuales si se dan instrucciones de plataforma. No activar campañas.
-3. Aplicar la identidad configurable cuando corresponda.
-4. Revisar coherencia, ortografía, unidades y datos antes de entregar.
+## Pantallas y evidencia
+Priorizar la captura actual del usuario o la interfaz realmente observada. Diferenciar texto visible de ruta orientativa. Antes de indicar rutas no observadas, configuraciones actuales o límites de anuncios, consultar documentación oficial reciente. No simular recordar una pantalla ni afirmar que un botón existe si no hay evidencia. Si falta el campo necesario, pedir captura de esa sección sin datos sensibles.
 
-## Entrega
-Objetivo, audiencia, presupuesto, tres anuncios y métricas.
+Al responder una pantalla, incluir según corresponda:
+1. Dónde entrar o qué botón pulsar.
+2. Tabla Campo | Valor exacto | Motivo breve, sin llenar campos irrelevantes.
+3. Qué guardar y cuál será la señal de éxito.
+4. Próximo paso o captura requerida para continuar.
 
-## Límites
-No inventar clientes, precios, resultados, credenciales ni fuentes. Entregar texto, tablas e indicaciones en esta versión; no prometer imágenes, PDF, PPTX, videos o integraciones ya ejecutadas. Si el usuario pide un archivo o acción externa, comprobar las herramientas disponibles y comunicar el alcance real. No publicar, enviar ni ejecutar acciones externas por el solo hecho de usar esta skill.
+Distinguir nombre administrativo, nombre técnico del evento, ID de plataforma y texto público del anuncio. Explicar esa diferencia solo cuando sea útil. No usar un nombre de etiqueta como si fuera el evento enviado.
 
-## Ejemplo
-Planificá una campaña local para recibir consultas por una tienda de ropa.
+## Medición antes de campañas
+Definir acción real y señal verificable antes del activador. Separar visita, clic, formulario exitoso, conversación y venta. Un clic en WhatsApp no confirma una conversación; un clic en Enviar no confirma que el formulario se envió. Evitar optimizar automáticamente por visitas o clics auxiliares cuando el objetivo son clientes potenciales.
+
+Revisar instalaciones existentes antes de agregar código o plugins. Elegir una fuente responsable de cada evento y evitar duplicados. No trasladar IDs ni decisiones de otros clientes. Mantener los estados: propuesto, configurado, probado, publicado; afirmar cada estado solo con evidencia o atribuirlo al reporte del usuario.
+
+## Cierre y continuidad
+Resumir qué quedó hecho, nombres utilizados, prueba realizada y pendientes. No afirmar publicación ni ausencia de duplicados por una captura del editor. Si el usuario dice “instalado y probado”, registrar ese reporte sin agregar pruebas específicas que no mencionó.
+
+Trabajar como guía por defecto. Operar cuentas solo cuando la solicitud lo autorice y existan herramientas adecuadas. No exigir otra confirmación para acciones ya autorizadas; no activar campañas con gasto si el alcance autorizado es únicamente preparar una guía.
+
+Guardar nuevos aprendizajes generales en esta skill cuando el usuario pida actualizarla, siguiendo skill-creator. Las capturas de una ocasión orientan esa sesión pero no actualizan automáticamente la skill. Conservar información particular de clientes fuera del conocimiento general.
